@@ -1,0 +1,179 @@
+ 
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+#section-one {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+#section-one-child {
+    background-color: blue;
+    height: 80%;
+    width: 50%;
+    text-align: center;
+}
+
+#section-two {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+#section-two-child {
+    background-color:chartreuse;
+    height: 50%;
+    width: 22%;
+    text-align: center;
+}
+
+#section-three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+#section-three-child {
+    height: 50%;
+    width: 22%;
+    text-align: center;
+} 
+
+
+
+/* Here iam making the cookies website responsive. */
+@media screen and (max-width:450px) {
+    #section-one {
+        flex-direction: column;
+    }
+    img{
+        height: 50%;
+        width: 22%;
+    }
+    #section-two{
+        flex-direction: column;
+    }
+    #section-three {
+        flex-direction: column;
+    }
+} 
+
+@media screen and (min-width:426px)and (max-width:768px) {
+    #section-one {
+        flex-direction: column;
+    }
+    #section-two{
+        flex-direction: column;
+    }
+    #section-three {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:769px)and (max-width:1024px) {
+    #section-one {
+        flex-direction: column;
+    }
+    #section-two{
+        flex-direction: column;
+    }
+    #section-three {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1025px)and (max-width:1440px) {
+    #section-one {
+        flex-direction: column;
+    }
+    #section-two{
+        flex-direction: column;
+    }
+    #section-three {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1441px)and (max-width:2560px) {
+    #section-one {
+        flex-direction: column;
+    }
+    #section-two{
+        flex-direction: column;
+    }
+    #section-three {
+        flex-direction: column;
+    }
+} 
+
+
+
+
+
+
+/* .product {
+    text-align: center;
+    width: calc(20% - 20px); 
+    margin-bottom: 20px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.original-image, .hover-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: transform 0.5s ease;
+}
+.hover-image {
+    transform: translateY(100%);
+}
+
+.image-container:hover .hover-image {
+    transform: translateY(0);
+}
+.price-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    margin-top: 10px; 
+}
+
+.price-container p {
+    margin: 0;
+}
+/* 
+.add-to-cart {
+    background-color: #60c2ec; 
+    color: white; 
+    border: none;
+    border-radius: 4px; 
+    padding: 5px 10px; 
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #cc5200; 
+} */ 
