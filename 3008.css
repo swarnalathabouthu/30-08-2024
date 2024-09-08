@@ -4,7 +4,7 @@
     padding: 0;
 }
 #section-one {
-    background-color: aqua;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -13,14 +13,14 @@
     padding: 10px;
 }
 #section-one-child {
-    background-color: blue;
+
     height: 80%;
-    width: 50%;
+    width: 20%;
     text-align: center;
 }
 
 #section-two {
-    background-color: red;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -29,7 +29,7 @@
     padding: 10px;
 }
 #section-two-child {
-    background-color:chartreuse;
+
     height: 50%;
     width: 22%;
     text-align: center;
@@ -52,7 +52,7 @@
 
 
 /* Here iam making the cookies website responsive. */
-@media screen and (max-width:450px) {
+/*@media screen and (max-width:450px) {
     #section-one {
         flex-direction: column;
     }
@@ -114,7 +114,7 @@
     #section-three {
         flex-direction: column;
     }
-} 
+}  */
 
 
 
